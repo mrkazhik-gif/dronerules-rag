@@ -85,6 +85,10 @@ No answer, metric or log record was changed.
 
 An AI coding assistant (Claude, Anthropic, used through Claude Code) generated most of the source code, ran the scripted experiments on the first author's computer, proposed the mitigations and indicators, and drafted this README. The authors set the task and the domain, provided the legal source and found that its first version was outdated, ran the demonstrations and the Colab run, reviewed the results and the manual corrections, made the deployment decision, and are responsible for the content.
 
+## License
+
+Our code, test questions, synthetic attack passages and logs are released under the MIT License (see `LICENSE`). Two parts are not ours and keep their own terms: the text of the rules in `*/data/source/` and `*/data/kb/official_chunks.jsonl` is a public legal act, and the English patterns in `assignment4/code/injection_scan.py` come from AIGoat under the Apache License 2.0.
+
 ## Context
 
 The project was made for the course “AI Security and Risk Analysis” (AISRA1301), Master's programme AI+X, 2026.
