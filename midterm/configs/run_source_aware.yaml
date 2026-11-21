@@ -1,0 +1,8 @@
+# garak run config - source_aware. The two run configs differ only in the report directory.
+run:
+  generations: 1
+  seed: 42
+  soft_probe_prompt_cap: 40
+reporting:
+  report_dir: "D:/Work/Projects/Qairu/AI Security and Risk Analysis/Assignments/Midterm Project - AI System Development and Safety Evaluation/rag/logs/garak_source_aware"
+  taxonomy: owasp

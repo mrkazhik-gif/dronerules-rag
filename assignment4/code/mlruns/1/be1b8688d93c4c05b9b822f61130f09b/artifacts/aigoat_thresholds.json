@@ -1,0 +1,50 @@
+{
+ "alert_rate": [
+  ">",
+  0.1,
+  "0 of 44 in normal logs; more than 2 of 20 requests is not chance noise (assumption)",
+  "Operator reviews the suspect sources within the shift; remove them if false"
+ ],
+ "block_rate": [
+  ">",
+  0.05,
+  "0 of 44 in normal logs; more than 1 of 20 requests (assumption)",
+  "Operator reads the blocked drafts; check retrieval and the store"
+ ],
+ "unchecked_rate": [
+  ">",
+  0.5,
+  "10 of 44 (23%) in normal logs; about twice the normal level (assumption)",
+  "Operator samples the answers; check whether the store lost numeric content"
+ ],
+ "latency_p95": [
+  ">",
+  9.7,
+  "2 x normal p95 of 4.84 s; a rewrite doubled latency in Assignment 3",
+  "Check GPU load; limit requests or move to the fallback message"
+ ],
+ "error_rate": [
+  ">",
+  0.05,
+  "No errors in normal logs; more than 1 of 20 requests",
+  "Restart the service; show the fallback message until it is fixed"
+ ],
+ "canary_accuracy": [
+  "<",
+  0.8,
+  "9 of 10 expected in normal logs (q09 fails); two more failures are a real change",
+  "Safe mode: stop answering, operator checks the store and model"
+ ],
+ "store_mismatches": [
+  ">",
+  0,
+  "The store must equal the reference snapshot; any difference is unauthorised until approved",
+  "Safe mode: stop answering, restore the store from the reference"
+ ],
+ "injection_rate": [
+  ">",
+  0.0,
+  "0 of 786 clean passages match; any instruction-like phrasing in retrieved rules text is abnormal",
+  "Operator reviews and quarantines the flagged passages; if one is in the verified store, safe mode"
+ ]
+}

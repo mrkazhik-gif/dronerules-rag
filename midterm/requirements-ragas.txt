@@ -1,0 +1,10 @@
+# Separate environment for ragas_eval.py (no GPU needed). Older pandas/pyarrow pinned because Windows
+# Smart App Control blocked the DLLs of pandas 3.0.6 and pyarrow 26.0.0 on the test machine.
+ragas==0.4.3
+pandas==2.2.3
+pyarrow==18.1.0
+datasets==4.0.0
+langchain<0.4
+langchain-core<0.4
+langchain-community<0.4
+langchain-openai<0.4

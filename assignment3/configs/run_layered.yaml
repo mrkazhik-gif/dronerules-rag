@@ -1,0 +1,8 @@
+# garak run config - layered (Assignment 3). Same probes and cap as the Midterm.
+run:
+  generations: 1
+  seed: 42
+  soft_probe_prompt_cap: 40
+reporting:
+  report_dir: "D:/Work/Projects/Qairu/AI Security and Risk Analysis/Assignments/Assignment 3 - AI Safety Improvement and Validation/rag/logs/garak_layered"
+  taxonomy: owasp

@@ -1,0 +1,44 @@
+{"step": 10, "phase": "normal", "mismatches": 0, "examples": []}
+{"step": 20, "phase": "normal", "mismatches": 0, "examples": []}
+{"step": 30, "phase": "normal", "mismatches": 0, "examples": []}
+{"step": 40, "phase": "normal", "mismatches": 0, "examples": []}
+{"step": 50, "phase": "naive", "mismatches": 0, "examples": []}
+{"step": 60, "phase": "naive", "mismatches": 0, "examples": []}
+{"step": 70, "phase": "naive", "mismatches": 0, "examples": []}
+{"step": 80, "phase": "naive", "mismatches": 0, "examples": []}
+{"step": 90, "phase": "recovery", "mismatches": 0, "examples": []}
+{"step": 100, "phase": "recovery", "mismatches": 0, "examples": []}
+{"step": 110, "phase": "recovery", "mismatches": 0, "examples": []}
+{"step": 120, "phase": "recovery", "mismatches": 0, "examples": []}
+{"step": 130, "phase": "recovery", "mismatches": 0, "examples": []}
+{"step": 140, "phase": "stealth", "mismatches": 0, "examples": []}
+{"step": 150, "phase": "stealth", "mismatches": 0, "examples": []}
+{"step": 160, "phase": "stealth", "mismatches": 0, "examples": []}
+{"step": 170, "phase": "stealth", "mismatches": 0, "examples": []}
+{"step": 180, "phase": "compromise", "mismatches": 60, "examples": ["poison-q01-0", "poison-q01-1", "poison-q01-2", "poison-q02-0", "poison-q02-1"]}
+{"step": 190, "phase": "compromise", "mismatches": 60, "examples": ["poison-q01-0", "poison-q01-1", "poison-q01-2", "poison-q02-0", "poison-q02-1"]}
+{"step": 200, "phase": "compromise", "mismatches": 60, "examples": ["poison-q01-0", "poison-q01-1", "poison-q01-2", "poison-q02-0", "poison-q02-1"]}
+{"step": 210, "phase": "compromise", "mismatches": 60, "examples": ["poison-q01-0", "poison-q01-1", "poison-q01-2", "poison-q02-0", "poison-q02-1"]}
+{"step": 220, "phase": "compromise", "mismatches": 60, "examples": ["poison-q01-0", "poison-q01-1", "poison-q01-2", "poison-q02-0", "poison-q02-1"]}
+{"step": 230, "phase": "compromise_avoid_canary", "mismatches": 30, "examples": ["poison-q02-0", "poison-q02-1", "poison-q02-2", "poison-q04-0", "poison-q04-1"]}
+{"step": 240, "phase": "compromise_avoid_canary", "mismatches": 30, "examples": ["poison-q02-0", "poison-q02-1", "poison-q02-2", "poison-q04-0", "poison-q04-1"]}
+{"step": 250, "phase": "compromise_avoid_canary", "mismatches": 30, "examples": ["poison-q02-0", "poison-q02-1", "poison-q02-2", "poison-q04-0", "poison-q04-1"]}
+{"step": 260, "phase": "compromise_avoid_canary", "mismatches": 30, "examples": ["poison-q02-0", "poison-q02-1", "poison-q02-2", "poison-q04-0", "poison-q04-1"]}
+{"step": 270, "phase": "kb_loss", "mismatches": 248, "examples": ["kz-a1_2", "kz-a1_5", "kz-a2_0", "kz-p100-1_s1", "kz-p100-1_s2"]}
+{"step": 280, "phase": "kb_loss", "mismatches": 248, "examples": ["kz-a1_2", "kz-a1_5", "kz-a2_0", "kz-p100-1_s1", "kz-p100-1_s2"]}
+{"step": 290, "phase": "kb_loss", "mismatches": 248, "examples": ["kz-a1_2", "kz-a1_5", "kz-a2_0", "kz-p100-1_s1", "kz-p100-1_s2"]}
+{"step": 300, "phase": "kb_loss", "mismatches": 248, "examples": ["kz-a1_2", "kz-a1_5", "kz-a2_0", "kz-p100-1_s1", "kz-p100-1_s2"]}
+{"step": 310, "phase": "latency_sim", "mismatches": 0, "examples": []}
+{"step": 320, "phase": "latency_sim", "mismatches": 0, "examples": []}
+{"step": 330, "phase": "latency_sim", "mismatches": 0, "examples": []}
+{"step": 340, "phase": "latency_sim", "mismatches": 0, "examples": []}
+{"step": 350, "phase": "latency_sim", "mismatches": 0, "examples": []}
+{"step": 360, "phase": "errors_sim", "mismatches": 0, "examples": []}
+{"step": 370, "phase": "errors_sim", "mismatches": 0, "examples": []}
+{"step": 380, "phase": "errors_sim", "mismatches": 0, "examples": []}
+{"step": 390, "phase": "errors_sim", "mismatches": 0, "examples": []}
+{"step": 400, "phase": "normal_end", "mismatches": 0, "examples": []}
+{"step": 410, "phase": "normal_end", "mismatches": 0, "examples": []}
+{"step": 420, "phase": "normal_end", "mismatches": 0, "examples": []}
+{"step": 430, "phase": "normal_end", "mismatches": 0, "examples": []}
+{"step": 440, "phase": "normal_end", "mismatches": 0, "examples": []}

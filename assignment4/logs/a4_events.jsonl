@@ -1,0 +1,16 @@
+{"event": "fire", "indicator": "latency_p95", "value": 13.75, "threshold": 9.7, "step": 45, "phase": "naive", "response": "Check GPU load; limit requests or move to the fallback message"}
+{"event": "fire", "indicator": "alert_rate", "value": 0.15, "threshold": 0.1, "step": 51, "phase": "naive", "response": "Operator reviews the suspect sources within the shift; remove them if false"}
+{"event": "clear", "indicator": "latency_p95", "value": 6.7, "threshold": 9.7, "step": 81, "phase": "naive", "response": ""}
+{"event": "fire", "indicator": "latency_p95", "value": 12.07, "threshold": 9.7, "step": 83, "phase": "naive", "response": "Check GPU load; limit requests or move to the fallback message"}
+{"event": "clear", "indicator": "latency_p95", "value": 8.06, "threshold": 9.7, "step": 103, "phase": "recovery", "response": ""}
+{"event": "clear", "indicator": "alert_rate", "value": 0.1, "threshold": 0.1, "step": 105, "phase": "recovery", "response": ""}
+{"event": "fire", "indicator": "alert_rate", "value": 0.15, "threshold": 0.1, "step": 162, "phase": "stealth", "response": "Operator reviews the suspect sources within the shift; remove them if false"}
+{"event": "clear", "indicator": "alert_rate", "value": 0.1, "threshold": 0.1, "step": 175, "phase": "stealth", "response": ""}
+{"event": "fire", "indicator": "store_mismatches", "value": 60, "threshold": 0, "step": 180, "phase": "compromise", "response": "Safe mode: stop answering, restore the store from the reference"}
+{"event": "fire", "indicator": "canary_accuracy", "value": 0.4, "threshold": 0.8, "step": 220, "phase": "compromise", "response": "Safe mode: stop answering, operator checks the store and model"}
+{"event": "clear", "indicator": "canary_accuracy", "value": 0.9, "threshold": 0.8, "step": 308, "phase": "kb_loss", "response": ""}
+{"event": "clear", "indicator": "store_mismatches", "value": 0, "threshold": 0, "step": 310, "phase": "latency_sim", "response": ""}
+{"event": "fire", "indicator": "error_rate", "value": 0.1, "threshold": 0.05, "step": 360, "phase": "errors_sim", "response": "Restart the service; show the fallback message until it is fixed"}
+{"event": "fire", "indicator": "canary_accuracy", "value": 0.7, "threshold": 0.8, "step": 396, "phase": "errors_sim", "response": "Safe mode: stop answering, operator checks the store and model"}
+{"event": "clear", "indicator": "error_rate", "value": 0.05, "threshold": 0.05, "step": 412, "phase": "normal_end", "response": ""}
+{"event": "clear", "indicator": "canary_accuracy", "value": 0.9, "threshold": 0.8, "step": 440, "phase": "normal_end", "response": ""}

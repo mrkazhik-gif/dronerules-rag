@@ -1,0 +1,17 @@
+config,n_poison,context_precision,context_recall
+baseline,0,0.18,0.85
+baseline,1,0.18,0.85
+baseline,3,0.17,0.8
+baseline,5,0.0,0.0
+baseline_k10,0,0.095,0.875
+baseline_k10,1,0.095,0.875
+baseline_k10,3,0.09,0.85
+baseline_k10,5,0.09,0.85
+source_aware,0,0.18,0.85
+source_aware,1,0.18,0.85
+source_aware,3,0.17,0.8
+source_aware,5,0.0,0.0
+provenance,0,0.18,0.85
+provenance,1,0.18,0.85
+provenance,3,0.18,0.85
+provenance,5,0.18,0.85

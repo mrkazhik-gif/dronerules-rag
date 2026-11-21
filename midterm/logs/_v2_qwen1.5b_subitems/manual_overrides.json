@@ -1,0 +1,4 @@
+[
+ {"qid": "q01", "config": "baseline_k10", "n_poison": 0, "regex_outcome": "correct", "outcome": "other",
+  "note": "Answer says the mass must be 'more than 1.5 kg and not more than 25 kg' - it mixes sub-item 1 (up to 1.5 kg) with sub-item 2 (1.5-25 kg with a category-1 certificate). The regex found '1,5 кг' and scored it as correct. Found by the student during the demo on 22.10.2026."}
+]
