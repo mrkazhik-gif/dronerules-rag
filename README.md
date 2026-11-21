@@ -2,7 +2,7 @@
 
 Code, data and logs for the article **“One Poisoned Passage Is Enough: Attacking, Defending and Monitoring a RAG Assistant for Kazakhstan's Drone Rules”** by Daulet Kazhigul and Aslan Zhunzhumenov (2026).
 
-Article: *the link will be added after publication.*
+Article: [medium.com/@mr.kazhik/one-poisoned-passage-is-enough…](https://medium.com/@mr.kazhik/one-poisoned-passage-is-enough-attacking-defending-and-monitoring-a-rag-assistant-for-4c0ad31fb26e)
 
 > **Warning.** The files in `*/data/attack/` and many answers in `*/logs/` contain **deliberately false statements about flight rules**. They are synthetic test material for a security experiment. Do not use anything in this repository as guidance for flying. The only valid source is the official text of the rules on [adilet.zan.kz](https://adilet.zan.kz).
 
@@ -83,7 +83,7 @@ No answer, metric or log record was changed.
 
 ## AI use
 
-An AI coding assistant (Claude, Anthropic, used through Claude Code) generated most of the source code, ran the scripted experiments on the first author's computer, proposed the mitigations and indicators, and drafted this README. The authors set the task and the domain, provided the legal source and found that its first version was outdated, ran the demonstrations and the Colab run, reviewed the results and the manual corrections, made the deployment decision, and are responsible for the content.
+The authors chose the problem and the domain, provided the legal source and found that its first version was outdated, checked the code and the logs, ran the demonstrations and the Colab experiment themselves, reviewed the results and the manual corrections, and made the deployment decision. An AI coding assistant (Claude, Anthropic, through Claude Code) was used as a tool: it wrote most of the code, suggested design options, ran the scripted experiments on the first author's computer and helped to draft the text and this README. The authors are responsible for the content.
 
 ## License
 
