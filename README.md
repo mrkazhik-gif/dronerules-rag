@@ -1,6 +1,6 @@
 # DroneRules RAG
 
-Code, data and logs for the article **“One Poisoned Passage Is Enough: Attacking, Defending and Monitoring a RAG Assistant for Kazakhstan's Drone Rules”** by Daulet Kazhigul and Aslan Zhunzhumenov (2026).
+Code, data and logs for the article **“One Poisoned Passage Is Enough: Attacking, Defending and Monitoring a RAG Assistant for Kazakhstan's Drone Rules”** by Daulet Kazhigul, Chingizkhan Medetov, Yerlan Issimbetov and Adilbek Abdualim (2026).
 
 Article: [medium.com/@mr.kazhik/one-poisoned-passage-is-enough…](https://medium.com/@mr.kazhik/one-poisoned-passage-is-enough-attacking-defending-and-monitoring-a-rag-assistant-for-4c0ad31fb26e)
 
